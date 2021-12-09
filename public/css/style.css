@@ -26,8 +26,8 @@
   }
   
   main {
+    margin-top: -40px;
     min-height: 100vh;
-    margin-top: 100px;
     margin-bottom: 70px;
   }
   
@@ -58,7 +58,8 @@
     align-items: center;
     justify-content: space-between;
   
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     top: 0;
     left: 0;
@@ -133,14 +134,21 @@
     align-items: center;
   }
   
-  
+  .alto_ofertas{
+    max-height: 60vh;
+  }
   .carousel{
     background-image: url(../img/carousel/ofertas_fondo.png);
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: cover;
+      
   }
   
+  .carousel-item{
+
+  }
+
   .carousel-item img{
    height: 100%;
   }
