@@ -57,9 +57,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-  
     position: sticky;
-    top: 0;
     width: 100%;
     top: 0;
     left: 0;
@@ -143,10 +141,6 @@
       background-position: bottom;
       background-size: cover;
       
-  }
-  
-  .carousel-item{
-
   }
 
   .carousel-item img{
@@ -289,6 +283,12 @@
     margin-bottom: 32px;
   }
   
+  .enviarconsulta__boton{
+    background-color: #ef2100;
+    border-color: #950000;
+      font-weight: bold;
+      text-shadow: #88a74b 1px 1px 2px;
+  }
   
   
   .redes{
@@ -371,7 +371,17 @@
             background: #2125295e;
              box-shadow: 0px 0px 30px 5px #212529ad;
           }
+
+          .separacion-filas {
+            margin-bottom: 0px;
+          }
+          .card {
+            margin-bottom: 15px;
+          }
         
+          .iframe {
+            margin-top: 30px;
+          }
   
   @media (max-width:425px) {
   
@@ -403,3 +413,7 @@
       gap:10px;
       justify-content: space-evenly;
     }  
+
+
+
+   
